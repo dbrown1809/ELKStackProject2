@@ -49,20 +49,14 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: 190.99.198.244
+- _TODO: 
 
 Machines within the network can only be accessed by my home computer.
-- _TODO: I allowed access via my home computer with IP: 190.99.198.244
+- _TODO: I allowed access via my home computer with IP: 
 
 A summary of the access policies in place can be found in the table below.
 
-| Name          | Publicly Accessible | Allowed IP Addresses    |
-|---------------|---------------------|-------------------------|
-| Jump Box      | Yes                 | 190.99.198.244          |
-| Web1          | No                  | 190.99.198.244 10.0.0.4 |
-| Web2          | No                  | 190.99.198.244 10.0.0.4 |
-| ElkVM1        | No                  | 190.99.198.244 10.0.0.4 |
-| Load Balancer | Yes                 | Any                     |
+
 
 ### Elk Configuration
 
